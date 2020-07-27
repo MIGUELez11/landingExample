@@ -1,0 +1,17 @@
+main form {
+    margin: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+main form * {
+    margin: 3px;
+}
+main form label {
+    display: inline-block;
+    width: 70px;
+}
+
+p#error {
+    color: red;
+}

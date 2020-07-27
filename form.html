@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <script src="JS/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <p class="title">Examples</p>
+    </header>
+    <nav>
+        <div class="dropDownContainer">
+            <div class="link" onclick="window.open('https://google.com')">
+                <a href="https://google.com">Categories</a>
+            </div>
+            <div class="dropDown">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+        </div>
+        <div class="link" onclick="window.open('https://google.com')">
+            <a href="https://google.com">About Me</a>
+        </div>
+        <div class="link" onclick="document.location = 'form.html'">
+            <a href="form.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <form action="https://www.w3schools.com/action_page.php" method="GET">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" id="name" autofocus required>
+            </div>
+            <div>
+                <label for="lname">Apellido: </label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <div>
+                <label for="email">Contraseña: </label>
+                <input type="password" name="email" id="email" required>
+            </div>
+            <input type="submit" value="Submit">
+            <p id="error"></p>
+        </form>
+    </main>
+    <!-- <footer>
+        <nav>
+            <div class="dropDownContainer">
+                <div class="link" onclick="window.open('https://google.com')">
+                    <a href="https://google.com">Categories</a>
+                </div>
+                <div class="dropDown">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
+            </div>
+            <div class="link" onclick="window.open('https://google.com')">
+                <a href="https://google.com">About Me</a>
+            </div>
+            <div class="link" onclick="document.location = 'form.html'">
+                <a href="form.html">Contact</a>
+            </div>
+        </nav>
+        <section id="rrss">
+            <h2>Redes Sociales</h2>
+            <img class="rrss" src="IMG/facebook.svg" alt="Facebook">
+            <img class="rrss" src="IMG/twitter.svg" alt="Twitter">
+            <img class="rrss" onclick="window.open('https://instagram.com/freddiemercury')" src="IMG/instagram.svg"
+                alt="Instagram">
+            <img class="rrss" src="IMG/marker.svg" alt="Marker">
+        </section>
+    
+    </footer> -->
+</body>
+</html>

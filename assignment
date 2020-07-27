@@ -1,0 +1,13 @@
+Formulario:
+	name:
+		max 255 caracteres
+	Apellido:
+		max 255 caracteres
+	Contraseña:
+		entre 8 y 255 caracteres
+		Y tenga al menos una mayúscula
+		(COMPLICATED) Tenga al menos un carácter entre: !#$%&'*+/=?^_`{|}~-
+	Email:
+		Validación HTML
+	
+	Si está mal, que me de un mensaje de error
