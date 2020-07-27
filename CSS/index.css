@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    width: CALC(100vw - 20px);
+}
+
+section h1, section h2 {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#firstSection .flex img {
+    width: 150px;
+    height: CALC(150px * 0.6392405063);
+}
+
+section#secondSection .flex figure img {
+    width: 300px;
+    height: CALC(300px * 0.6392405063);
+}
+
+section#secondSection .flex figure {
+    margin: 0px;
+}
+
+section p {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 950px) {
+    .flex {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
